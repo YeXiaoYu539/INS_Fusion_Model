@@ -2,7 +2,7 @@ clc
 clear
 close all
 initNavigation
-ptr = 'r20160905001解析后.txt.csv';%IMU 坐标系 后-左-下
+ptr = 'r20160905001.csv';%IMU 坐标�?�?�?�?
 Data = load(ptr);
 
 flightdata.AFCtime = Data(:,2) - Data(1,2);
